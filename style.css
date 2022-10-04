@@ -42,7 +42,13 @@ body {
 }
 
 .greyground {
-    background-color: lightgray;
+    background-color:#f6f6f6;
+
+    
+}
+
+.blue {
+    background-color: #5865f2;;
 }
 /* Sezione Intestazione */
 
@@ -152,6 +158,42 @@ p.white.marginauto {
 
 }
 
+.cont2{
+    padding: 120px 40px;
+
+}
+
+.textcent{
+    text-align: center;
+    max-width: 980px;
+    font-size: 36px;
+
+}
+
+p {
+    text-align: center;
+    margin-top: 24px;
+    max-width: 980px;
+}
+
+.bigsvg {
+    width: 1180px;;
+}
+
+.stars {
+    max-width: 530px;
+}
+
+h3 {
+    font-size: 32PX;
+}
+
+.blue {
+    background-color: #5865f2;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    color: white;
+}
 
 
 /* Sezione footer */
