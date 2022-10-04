@@ -6,25 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Struttura Discord</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Sezione Intestazione -->
-    <Header>      
-        <!-- Navigazione -->
-        <nav>
-            <!-- header section  -->
-            <div>
-                prova
-            </div>
-            <div>
-                prova
-            </div>
-            <div>
-                prova
-            </div>
-        </nav>
-        <!-- Call to Action -->   
-    </Header>
+    <header>      
+        <div class="jumbo">      
+            <!-- Navigazione -->
+            <nav class="flex cent marginauto">
+               
+                    <!-- header section  -->
+                    <div>
+                        <a href="home">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+
+                    <div>
+                        <ul class="flex nav">
+                            <li>
+                            <a class="white" href="">Scarica</a> 
+                            </li>
+                            <li>
+                                <a class="white" href="">Perchè Discord</a> 
+                            </li>
+                            <li>
+                                <a class="white" href="">Nitro</a> 
+                            </li>
+                            <li>
+                                <a class="white" href="">Sicurezza</a> 
+                            </li>
+                            <li>
+                                <a class="white" href="">Assistenza</a> 
+                            </li>
+                        </ul>
+                    
+                    </div>
+                    <div>
+                        <a href="">
+                            <button class="but">
+                                Accedi
+                            </button>
+                        </a>
+                    </div>
+                    
+            </nav>
+            <!-- Call to Action -->
+            <div class="flex cent cont marginauto">
+                <div class="cta" >
+                    <h2 class="white marginauto">Il Tuo Posto Per Parlare</h2>
+                    <p class="white marginauto"> 
+                        Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                    <div class="flex cont">
+                        <a href="">
+                            <button class="but dwn">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                Scarica per Windows
+                            </button>
+                        </a>
+                        <a href="">
+                            <button class="but dwn blackground white">
+                                Apri Discord nel tuo Browser
+                            </button>
+                        </a>
+                    </div>    
+                </div>
+                
+            </div>   
+        </div>    
+       
+    </header>
 
     <!-- Corpo Principale     -->
     <main>      
@@ -32,7 +84,7 @@
         <div class="maincontainer">
             <!-- contenitore colonne -->
             <div class="colcont">
-                <div class="content">
+                <div class="content flex">
                     <div class="img">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum deserunt sequi facilis quos sit ex quia officia iste. Voluptatibus similique, suscipit alias voluptas labore odit non dicta excepturi ab.
                     </div>
@@ -84,7 +136,7 @@
         <!-- Contenitore Righe -->
         <div class="container">
             <!-- Collegamenti -->   
-            <div class="collegamenti">
+            <div class="collegamenti flex">
                 <!-- Colonne -->
                 <Div class="social">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laudantium, natus sint maiores ducimus dignissimos odio atque architecto blanditiis similique! Explicabo delectus at ex nulla cumque ipsam quae illum voluptatum.
@@ -104,7 +156,7 @@
             </div>
 
              <!-- footer -->
-             <div class="footer">
+             <div class="footer flex">
                 <div>Logo</div>
                 <div>Login</div>
             </div>  
